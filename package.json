@@ -12,5 +12,13 @@
   "dependencies": {
     "bootstrap": "^5.2.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmahmoudifar/tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fmahmoudifar/tutorial/issues"
+  },
+  "homepage": "https://github.com/fmahmoudifar/tutorial#readme"
 }
