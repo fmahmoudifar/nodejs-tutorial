@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "main": "10-fs-sync.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "keywords": [],
   "description": "",
   "dependencies": {
-    "bootstrap": "^5.2.0",
     "lodash": "^4.17.21"
   },
   "repository": {
@@ -20,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/fmahmoudifar/tutorial/issues"
   },
-  "homepage": "https://github.com/fmahmoudifar/tutorial#readme"
+  "homepage": "https://github.com/fmahmoudifar/tutorial#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
