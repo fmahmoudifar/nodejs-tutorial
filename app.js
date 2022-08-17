@@ -1,7 +1,9 @@
-const _ = require('lodash')
-const arr = [1,[1,[1,[1]]]]
+const { readFile } = require('fs')
 
-const newArr = _.flattenDeep(arr)
-
-console.log(newArr);
-console.log("Hello World");
+readFile('./content/first.txt', 'utf8', (err, data) =>{
+    if(err){
+        return 
+    }else{
+        console.log(data);
+    }
+})
