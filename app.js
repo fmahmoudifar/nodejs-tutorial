@@ -1,9 +1,13 @@
-const { readFile } = require('fs')
+const EventEmitter = require('events')
 
-readFile('./content/first.txt', 'utf8', (err, data) =>{
-    if(err){
-        return 
-    }else{
-        console.log(data);
-    }
+const customEmitter = new EventEmitter()
+
+customEmitter.on('response', (name, id) =>{
+    console.log(`data recieved user ${name} with id: ${id}`)
 })
+
+customEmitter.on('response', () =>{
+    console.log(`some other logic`)
+})
+
+customEmitter.emit('response', 'john', 34)
