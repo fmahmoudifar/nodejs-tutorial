@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "10-fs-sync.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node start"
   },
   "author": "",
   "license": "ISC",
